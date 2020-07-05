@@ -3,12 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ownerIdTxt"
-        android:text="이메일 입력" />
-
-
+        android:id="@+id/goto_user_test"
+        android:text="유저 등록으로 넘어가기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goto_owner_test"
+        android:text="가게주인 등록으로 넘어가기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goto_home"
+        android:text="홈화면으로 가기"/>
 
 </LinearLayout>

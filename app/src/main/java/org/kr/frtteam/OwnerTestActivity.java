@@ -8,23 +8,34 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class OwenrTestActivity extends AppCompatActivity {
+public class OwnerTestActivity extends AppCompatActivity {
 
-    TextView ownerIdEdTxt = (TextView)findViewById(R.id.ownerIdEdTxt);
-    TextView ownerPwEdTxt = (TextView)findViewById(R.id.ownerPwEdTxt);
-    TextView ownerPwReEdTxt = (TextView)findViewById(R.id.ownerPwReEdTxt);
-    TextView ownerNumEdTxt = (TextView)findViewById(R.id.ownerNumEdTxt);
-    TextView ownerAcntBankTxt = (TextView)findViewById(R.id.ownerAcntBankTxt);
-    TextView ownerAcntNumEdTxt = (TextView)findViewById(R.id.ownerAcntNumEdTxt);
-    TextView ownerShopLocEdTxt = (TextView)findViewById(R.id.ownerShopLocEdTxt);
+    TextView ownerIdEdTxt;
+    TextView ownerPwEdTxt;
+    TextView ownerPwReEdTxt;
+    TextView ownerNumEdTxt;
+    TextView ownerAcntBankTxt;
+    TextView ownerAcntNumEdTxt;
+    TextView ownerShopLocEdTxt;
 
-    final Button buttonSubmit = (Button)findViewById(R.id.buttonSubmit);
-    final Button buttonAcntBankBtn = (Button)findViewById(R.id.buttonAcntBankBtn);
+    Button buttonSubmit;
+    Button buttonAcntBankBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ownertest);
+
+        ownerIdEdTxt = (TextView)findViewById(R.id.ownerIdEdTxt);
+        ownerPwEdTxt = (TextView)findViewById(R.id.ownerPwEdTxt);
+        ownerPwReEdTxt = (TextView)findViewById(R.id.ownerPwReEdTxt);
+        ownerNumEdTxt = (TextView)findViewById(R.id.ownerNumEdTxt);
+        ownerAcntBankTxt = (TextView)findViewById(R.id.ownerAcntBankTxt);
+        ownerAcntNumEdTxt = (TextView)findViewById(R.id.ownerAcntNumEdTxt);
+        ownerShopLocEdTxt = (TextView)findViewById(R.id.ownerShopLocEdTxt);
+
+       buttonSubmit = (Button)findViewById(R.id.buttonSubmit);
+       buttonAcntBankBtn = (Button)findViewById(R.id.buttonAcntBankBtn);
 
 
 
