@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/wrapLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ownerDynamicLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ownerShopTxt"
+                    android:text="가게 이름 정보" />
+
+                <EditText android:id="@+id/ownerShopEdTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""  />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ownerShopLocTxt"
+                    android:text="가게 주소 입력" />
+
+
+                <EditText android:id="@+id/ownerShopLocEdTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""  />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ownerShopRegNumTxt"
+                    android:text="사업자 등록번호 입력" />
+
+
+                <EditText android:id="@+id/ownerShopRegNumEdTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""  />
+
+                <Button android:id="@+id/ownerShopRegNumImgAddButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사업자 등록증 업로드" />
+            </LinearLayout>
+            <Button android:id="@+id/buttonShopAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가게 추가" />
+            <Button android:id="@+id/buttonShopDel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가게 삭제" />
+            <Button android:id="@+id/buttonShopSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="제출" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
